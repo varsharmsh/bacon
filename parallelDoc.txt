@@ -1,0 +1,28 @@
+<Command to run the code>
+
+python mybacon.py
+
+(Python 2.7)
+
+<Converting pickle input to JSON>
+
+import json
+import cPickle as pickle
+data = pickle.load(open('input_file'))
+json.dump(data,open('output_file.json','w'),encoding = 'latin1')
+
+When a new pickled dataset is generated, the above code can be used to convert it to JSON.
+
+<Machine Specifications>
+
+Processor : Intel i7-6500U CPU
+Installed RAM : 8 GB
+System type : 64 bit operating system,x64 based processor
+
+<Code documentation>
+
+Refer to comments in mybacon.py
+
+<Dataset>
+The JSON files generated are too huge to be uploaded on GitHub
+For reference, they can be downloaded from https://drive.google.com/open?id=0B0x4nQKFoyIWS1lFeHRqY045MFk
